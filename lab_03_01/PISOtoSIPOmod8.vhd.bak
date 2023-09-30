@@ -1,0 +1,11 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity PISOtoSIPOmod8 is
+	port	(
+	Q_out : out std_logic_vector (7 downto 0);
+	clk , OE , S_in: in std_logic
+	);
+end SIPOreg;
+
+architecture PISOtoSIPOmod8_arch of SIPOreg is

@@ -1,0 +1,43 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+entity twoDigcountDec is
+	port (
+			D0,D1 : out std_logic_vector (3 downto 0);
+			clk: in std_logic;
+			Co	:	out std_logic
+			);
+end twoDigcountDec;
+architecture twoDigcountDec_arch of twoDigcountDec is
+
+component countDec is
+	port (
+			Si : out std_logic_vector (3 downto 0);
+			clk: in std_logic;
+			Co	:	out std_logic
+			);
+end component;
+
+	signal 	S0_s, S1_s :  std_logic_vector (3 downto 0);
+	--signal 	T_s :  std_logic_vector (3 downto 0);
+	signal	o_Co_s , C_s : std_logic ;
+	signal 	s_clk : std_logic; 
+	
+	
+	begin
+	a0: countDec 
+	port map (
+			Si => S0_s,
+			clk =>s_clk,
+			Co	=> C_s
+			);
+	a1: countDec 
+	port map (
+			Si => S1_s,
+			clk =>C_s,
+			Co	=> o_Co_s
+			);
+	D0<=S0_s;D1<=S1_s;-- : out std_logic_vector (3 downto 0);
+	s_clk<=clk;
+	Co<=o_Co_s;
+
+end twoDigcountDec_arch;

@@ -1,0 +1,11 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+entity countInc is
+	port (
+			--en : in std_logic;
+			clk	:	in std_logic_vector (3 downto 0);
+			Si : out std_logic_vector (3 downto 0);
+--			clk: in std_logic;
+			Co	:	out std_logic
+			);
+end countInc;
