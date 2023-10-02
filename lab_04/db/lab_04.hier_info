@@ -1,0 +1,15 @@
+|RAmachine_gate
+clk => \gen00:0:ffi0.CLK
+clk => \gen00:1:ffi0.CLK
+clk => \gen00:2:ffi0.CLK
+clk => \gen00:3:ffi0.CLK
+RSTN => \gen00:0:ffi0.ACLR
+RSTN => \gen00:1:ffi0.PRESET
+RSTN => \gen00:2:ffi0.ACLR
+RSTN => \gen00:3:ffi0.ACLR
+Q[0] <= \gen00:0:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= \gen00:1:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= \gen00:2:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= \gen00:3:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+
+

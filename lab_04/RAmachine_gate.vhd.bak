@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.numeric_std.ALL;
+ 
+entity RAmachine_gate is
+	port(
+	
+	);
+end of RAmachine_gate;
+
+architecture RAmachine_gate_arch of RAmachine_gate is
+
+end RAmachine_gate_arch;
