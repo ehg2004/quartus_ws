@@ -1,0 +1,11 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity four_bit_sum_seven_seg is
+	port():
+end four_bit_sum_seven_seg:
+
+architecture four_bit_sum_seven_seg_arch of four_bit_sum_seven_seg is
+
+end four_bit_sum_seven_seg_arch;
+

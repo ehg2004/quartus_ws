@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A_dec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A_dec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "B_dec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "S_dec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

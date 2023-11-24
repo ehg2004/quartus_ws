@@ -1,0 +1,13 @@
+|countMOD16sync
+clk => \gen00:0:a00.CLK
+clk => \gen00:1:a00.CLK
+clk => \gen00:2:a00.CLK
+clk => \gen00:3:a00.CLK
+clk => mod08dff.CLK
+mod8 <= mod08dff.DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= \gen00:0:a00.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= \gen00:1:a00.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= \gen00:2:a00.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= \gen00:3:a00.DB_MAX_OUTPUT_PORT_TYPE
+
+

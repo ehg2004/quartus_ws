@@ -1,4 +1,18 @@
-|RAmachine_gate
+|lab_04
+clk => Timing_Reference:aa02.clk
+PB0 => RAmachine_gate:aa00.RSTN
+Q[0] <= conv_HEX_7SEG_v:aa01.D[0]
+Q[1] <= conv_HEX_7SEG_v:aa01.D[1]
+Q[2] <= conv_HEX_7SEG_v:aa01.D[2]
+Q[3] <= conv_HEX_7SEG_v:aa01.D[3]
+Q[4] <= conv_HEX_7SEG_v:aa01.D[4]
+Q[5] <= conv_HEX_7SEG_v:aa01.D[5]
+Q[6] <= conv_HEX_7SEG_v:aa01.D[6]
+Q[7] <= conv_HEX_7SEG_v:aa01.D[7]
+led_o <= Timing_Reference:aa02.clk_2Hz
+
+
+|lab_04|RAmachine_gate:aa00
 clk => \gen00:0:ffi0.CLK
 clk => \gen00:1:ffi0.CLK
 clk => \gen00:2:ffi0.CLK
@@ -11,5 +25,110 @@ Q[0] <= \gen00:0:ffi0.DB_MAX_OUTPUT_PORT_TYPE
 Q[1] <= \gen00:1:ffi0.DB_MAX_OUTPUT_PORT_TYPE
 Q[2] <= \gen00:2:ffi0.DB_MAX_OUTPUT_PORT_TYPE
 Q[3] <= \gen00:3:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_04|conv_HEX_7SEG_v:aa01
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN0
+X[2] => D.IN1
+X[2] => D.IN1
+X[2] => D.IN1
+X[2] => D.IN0
+X[2] => D.IN0
+X[2] => D.IN0
+X[2] => D.IN1
+X[2] => D.IN0
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN0
+dot_in => D.IN1
+D[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_04|Timing_Reference:aa02
+clk => tmp.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => count[25].CLK
+clk => count[26].CLK
+clk => count[27].CLK
+clk => count[28].CLK
+clk => count[29].CLK
+clk => count[30].CLK
+clk => count[31].CLK
+clk_2Hz <= tmp.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,0 +1,12 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity countMOD8 is
+	port	(
+	D_in : in std_logic_vector (7 downto 0);
+	clk , L_SN : in std_logic;
+	Os : out std_logic
+	);
+end countMOD8;
+
+architecture 

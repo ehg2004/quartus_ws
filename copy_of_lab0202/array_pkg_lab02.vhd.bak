@@ -1,0 +1,7 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package array_pkg_lab02 is
+       	type t_array is array (6 downto 0) of std_logic_vector(3 downto 0);
+		 -- type bus_array is array(natural range <>, natural range <>) of std_logic;
+end package;

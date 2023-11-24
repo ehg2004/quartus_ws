@@ -1,0 +1,47 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity sumDecvar is
+	port (
+			--en : in std_logic;
+			Si	:	in std_logic_vector (3 downto 0);
+			PRSN_o,RSTN_o : out std_logic_vector (3 downto 0);
+--			clk: in std_logic;
+			Co	:	out std_logic
+			);
+end sumDecvar;
+
+architecture sumDecvar_arch of sumDecvar is 
+--COMPONENT--
+
+	component dff is
+	port (
+	CLK , PRN,CLRN, D: in std_logic;
+	Q : out std_logic
+	);
+	end component;
+
+--END--COMPONENT--
+--SIGNAL--
+signal sQ , s1 , s2 , s3 : std_logic ;
+signal ss : std_logic_vector (3 downto 0);
+--END--SIGNAL--
+--BEGIN--
+	begin
+	
+	Si_s<=Si;
+	sDec10<=(Si_s(0) and not Si_s(1) and Si_s(2) and not Si_s(3));-- detects 10
+	sNew0<=(Si_s(0) or Si_s(1) or Si_s(2) or Si_s(3));--verifies 0
+	PRSN_o <= "1111";
+	
+	a0: dff 	port map (
+	CLK=> sDec10 , PRN => '1' ,CLRN => sNew0 , D => '1';
+	Q => sQ
+	);
+	
+	for i in 0 to 3 generate
+	gen00: RSTN_o(i) <= sQ;
+	end generate;
+	Co<=sQ;
+	
+end sumDecvar_arch;

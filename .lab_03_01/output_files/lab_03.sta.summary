@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.488
+TNS   : -67.832
+
+Type  : Slow 1200mV 85C Model Setup 'Timing_Reference:tr0|tmp'
+Slack : -3.309
+TNS   : -9.781
+
+Type  : Slow 1200mV 85C Model Setup 'PB0'
+Slack : -0.678
+TNS   : -0.678
+
+Type  : Slow 1200mV 85C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : -0.605
+TNS   : -0.605
+
+Type  : Slow 1200mV 85C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : -0.513
+TNS   : -0.513
+
+Type  : Slow 1200mV 85C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -0.239
+TNS   : -1.863
+
+Type  : Slow 1200mV 85C Model Hold 'PB0'
+Slack : 0.530
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 0.538
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timing_Reference:tr0|tmp'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : 0.712
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -2.047
+TNS   : -2.047
+
+Type  : Slow 1200mV 85C Model Removal 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 2.218
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PB0'
+Slack : -3.000
+TNS   : -15.627
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timing_Reference:tr0|tmp'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -1.403
+TNS   : -12.627
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.101
+TNS   : -58.451
+
+Type  : Slow 1200mV 0C Model Setup 'Timing_Reference:tr0|tmp'
+Slack : -2.975
+TNS   : -8.510
+
+Type  : Slow 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : -0.543
+TNS   : -0.543
+
+Type  : Slow 1200mV 0C Model Setup 'PB0'
+Slack : -0.473
+TNS   : -0.473
+
+Type  : Slow 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : -0.451
+TNS   : -0.451
+
+Type  : Slow 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -0.137
+TNS   : -1.079
+
+Type  : Slow 1200mV 0C Model Hold 'PB0'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timing_Reference:tr0|tmp'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.597
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : 0.678
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -1.927
+TNS   : -1.927
+
+Type  : Slow 1200mV 0C Model Removal 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 2.070
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PB0'
+Slack : -3.000
+TNS   : -15.627
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timing_Reference:tr0|tmp'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -1.403
+TNS   : -12.627
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.432
+TNS   : -8.920
+
+Type  : Fast 1200mV 0C Model Setup 'Timing_Reference:tr0|tmp'
+Slack : -1.245
+TNS   : -1.245
+
+Type  : Fast 1200mV 0C Model Setup 'PB0'
+Slack : -0.225
+TNS   : -0.225
+
+Type  : Fast 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timing_Reference:tr0|tmp'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PB0'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -0.527
+TNS   : -0.527
+
+Type  : Fast 1200mV 0C Model Removal 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : 1.168
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -37.082
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PB0'
+Slack : -3.000
+TNS   : -13.073
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timing_Reference:tr0|tmp'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:2:a00'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:0:a00'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PISOtoSIPOmod8:aa0|countMOD8:count00|\gen00:1:a00'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q_dec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_dec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_i",
+					"strict" : false
+				},
+				{
+					"name" : "PB0",
+					"strict" : false
+				},
+				{
+					"name" : "PB1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

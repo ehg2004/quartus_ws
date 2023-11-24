@@ -44,16 +44,11 @@ architecture RAmachine_gate_arch of RAmachine_gate is
 	
 	K_s(0)<= (Q_s(1) and not (Q_s(3)xor Q_s(2))) or (Q_s(3) and not (Q_s(1) xor Q_s(2)));
 	J_s(0)<= ((not Q_s(1)and not Q_s(3)) or (Q_s(3) and Q_s(2) and Q_s(1))) ;
---	K_s(1)<=((not Q_s(2))or(not Q_s(3) and not Q_s(0)));
 	K_s(1)<=((Q_s(3)and not Q_s(2)) or (not Q_s(3) and not Q_s(0)));
 	J_s(1)<=((not Q_s(3) and not Q_s(2) and Q_s(0))or(Q_s(3) and Q_s(2))or(Q_s(3)and not Q_s(0)));
---	K_s(2)<=((not Q_s(3) and Q_s(0))or(Q_s(1) and Q_s(0)));
 	K_s(2)<=((not Q_s(3) and Q_s(0))or( not Q_s(3) and Q_s(1))or(Q_s(0) and Q_s(1)));
---	J_s(2)<=((Q_s(1)and not Q_s(0))or(Q_s(1) and Q_s(3)));
 	J_S(2)<=(Q_s(1));
---	K_s(3)<=((Q_s(2) and Q_s(1))or(not Q_s(2) and not Q_s(1) and Q_s(0)));
 	K_s(3)<=((Q_s(2) and Q_s(1)) or (not Q_s(2) and not Q_s(1) and Q_s(0)));
---	J_s(3)<=((Q_s(1) and Q_s(0)) or (Q_s(2) and Q_s(1)) or (Q_s(0) and Q_s(2) ));
 	J_s(3)<=((Q_s(2) and Q_s(0))or(Q_s(2) and Q_s(1)));
 	
 	clk_s	<= clk;

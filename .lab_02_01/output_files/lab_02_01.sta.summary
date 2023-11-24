@@ -1,0 +1,941 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.486
+TNS   : -67.699
+
+Type  : Slow 1200mV 85C Model Setup 'Timing_Reference:aa|tmp'
+Slack : -1.652
+TNS   : -3.293
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.597
+TNS   : -0.597
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.464
+TNS   : -0.464
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.448
+TNS   : -0.448
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.423
+TNS   : -0.423
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.407
+TNS   : -0.407
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.364
+TNS   : -0.364
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.267
+TNS   : -0.267
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.199
+TNS   : -0.199
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.582
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.623
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.675
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timing_Reference:aa|tmp'
+Slack : 1.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -3.638
+TNS   : -4.363
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.632
+TNS   : -3.137
+
+Type  : Slow 1200mV 85C Model Recovery 'Timing_Reference:aa|tmp'
+Slack : -1.547
+TNS   : -2.530
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.513
+TNS   : -2.725
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.394
+TNS   : -2.362
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.345
+TNS   : -1.495
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.339
+TNS   : -1.339
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.306
+TNS   : -2.295
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.278
+TNS   : -2.341
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.271
+TNS   : -1.271
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.176
+TNS   : -2.145
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.973
+TNS   : -1.287
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.653
+TNS   : -0.738
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -0.391
+TNS   : -0.768
+
+Type  : Slow 1200mV 85C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -0.372
+TNS   : -0.569
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.513
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.536
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Timing_Reference:aa|tmp'
+Slack : 1.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 1.160
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 1.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timing_Reference:aa|tmp'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.091
+TNS   : -58.243
+
+Type  : Slow 1200mV 0C Model Setup 'Timing_Reference:aa|tmp'
+Slack : -1.524
+TNS   : -3.037
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.546
+TNS   : -0.546
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.446
+TNS   : -0.446
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.384
+TNS   : -0.384
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.361
+TNS   : -0.361
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.344
+TNS   : -0.344
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.335
+TNS   : -0.335
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.271
+TNS   : -0.271
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.231
+TNS   : -0.231
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.110
+TNS   : -0.110
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.545
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.595
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.649
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timing_Reference:aa|tmp'
+Slack : 1.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -3.377
+TNS   : -3.958
+
+Type  : Slow 1200mV 0C Model Recovery 'Timing_Reference:aa|tmp'
+Slack : -1.506
+TNS   : -2.495
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.423
+TNS   : -2.776
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.292
+TNS   : -2.416
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.253
+TNS   : -2.050
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.200
+TNS   : -2.014
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.195
+TNS   : -1.332
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.179
+TNS   : -2.060
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.134
+TNS   : -1.134
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.090
+TNS   : -1.090
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.063
+TNS   : -1.869
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.808
+TNS   : -1.108
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -0.541
+TNS   : -0.615
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -0.344
+TNS   : -0.628
+
+Type  : Slow 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -0.267
+TNS   : -0.449
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.502
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Timing_Reference:aa|tmp'
+Slack : 0.907
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 1.058
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 1.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -49.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timing_Reference:aa|tmp'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.411
+TNS   : -9.154
+
+Type  : Fast 1200mV 0C Model Setup 'Timing_Reference:aa|tmp'
+Slack : -0.296
+TNS   : -0.552
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.101
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timing_Reference:aa|tmp'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.349
+TNS   : -1.349
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.481
+TNS   : -0.835
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -0.437
+TNS   : -0.628
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.346
+TNS   : -0.346
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.337
+TNS   : -0.337
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.303
+TNS   : -0.303
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -0.293
+TNS   : -0.293
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -0.241
+TNS   : -0.241
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -0.230
+TNS   : -0.230
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -0.197
+TNS   : -0.197
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -0.193
+TNS   : -0.193
+
+Type  : Fast 1200mV 0C Model Recovery 'Timing_Reference:aa|tmp'
+Slack : -0.182
+TNS   : -0.182
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : 0.232
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Timing_Reference:aa|tmp'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.510
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -36.958
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timing_Reference:aa|tmp'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:1:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|\gen00:2:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|a0'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:1:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|\gen00:2:a1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a1|a0'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountDecComp:a1|twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'twoDigcountInc:a0|countInc:a0|detVerInc:a2|a0'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

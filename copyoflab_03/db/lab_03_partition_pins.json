@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "B_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sipo_dbg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "piso_dbg",
+					"strict" : false
+				},
+				{
+					"name" : "ctindbg",
+					"strict" : false
+				},
+				{
+					"name" : "ctoutdbg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ctoutdbg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ctoutdbg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dbgdff0",
+					"strict" : false
+				},
+				{
+					"name" : "dbgff1",
+					"strict" : false
+				},
+				{
+					"name" : "PB1",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PB0",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "N_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+Fitter Status : Successful - Thu Sep 28 11:59:17 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lab_03
+Top-level Entity Name : PISOtoSIPOmod8
+Family : Cyclone IV GX
+Device : EP4CGX22CF19C6
+Timing Models : Final
+Total logic elements : 42 / 21,280 ( < 1 % )
+    Total combinational functions : 15 / 21,280 ( < 1 % )
+    Dedicated logic registers : 36 / 21,280 ( < 1 % )
+Total registers : 36
+Total pins : 42 / 167 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 0 / 774,144 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 80 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 4 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 4 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -20,11 +20,27 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "Q[4]",
 					"strict" : false
 				},
 				{
-					"name" : "RSTN",
+					"name" : "Q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_o",
+					"strict" : false
+				},
+				{
+					"name" : "PB0",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
 					"strict" : false
 				}
 			]

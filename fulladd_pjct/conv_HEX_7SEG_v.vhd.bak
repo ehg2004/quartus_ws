@@ -1,0 +1,23 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity conv_HEX_7SEG_v is
+	port	(
+	X : in  std_logic_vector (3 downto 0);
+	PH, dot_in: in std_logic;
+	a,b,c,d,e,f,g,dot : out std_logic
+	D : out std_logic_vector (7 downto 0);
+	);
+end conv_HEX_7SEG_v;
+
+architecture conv_HEX_7SEG_v_arch of conv_HEX_7SEG is
+	begin
+	D(0)	<= PH xor ((X3 and X0 and (X1 xor X2))or (not X3 and not X1 and (X0 xor X2)));
+	D(1) 	<= PH xor ((not X3 and X2 and not X1 and X0) or (X2 and X1 and not X0) or(X3 and X1 and X0) or (X3 and X2 and not X0));
+	D(2)	<= PH xor ((not X3 and not X2 and X1 and not X0)or(X3 and X2 and (X1 or not X0)));
+	D(3) 	<= PH xor ((not X3 and not X1 and (X2 xor X0)) or (X2 and X1 and X0) or (X3 and not X2 and X1 and not X0));
+	D(4)	<= PH xor ((not X3 and X0) or (not X3 and X2 and not X1) or (not X2 and not X1 and X0));
+	D(5) 	<= PH xor ((not X3 and not X2 and (X1 or X0)) or (not X3 and X1 and X0) or (X3 and X2 and not X1 and X0));
+	D(6) 	<= PH xor ((not X3 and not X2 and not X1)or(not X3 and X2 and X1 and X0)or(X3 and X2 and not X1 and not X0));
+	D(7)	<= PH xor (not dot_in) ;
+end conv_HEX_7SEG_v_arch;

@@ -1,0 +1,24 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity ffjk_comp is
+	port (
+			J , K  , ctrl in std_logic ; 
+			Q0_ , Q1_ out std_logic ;
+			);
+end ffjk_comp;
+
+architecture ffjk_arch of ffjk_comp is 
+--SIGNAL--
+	signal j_path , K_path , Q0_path , Q1_path , S0_path , R0_path : std_logic ;
+--END--SIGNAL--
+
+	S0_path<= not (Q1_path  and J and ctrl);
+	R0_path<= not (Q0_path and K and ctrl );
+	Q1_path<=R0_path nand Q0_path;
+	Q0_path<=S0_path nand Q1_path;
+	Q1_<=Q1_path;
+	Q0_<=Q0_path;
+	
+--BEGIN--
+end ffjk_arch;

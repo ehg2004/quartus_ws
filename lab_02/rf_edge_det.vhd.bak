@@ -1,0 +1,9 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity rf_edge_det is
+	port	(
+	);
+end	rf_edge_det;
+
+architecture rf_edge_det_arch of rf_edge_det

@@ -1,0 +1,92 @@
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_inst__pin_name2__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.691");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.691");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst__pin_name2__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst3__pin_name3__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.571");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.571");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst3__pin_name3__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst4__pin_name4__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.811");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.811");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst4__pin_name4__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_inst4__pin_name5__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.337");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.337");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

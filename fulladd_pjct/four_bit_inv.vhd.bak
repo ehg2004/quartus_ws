@@ -1,0 +1,12 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity four_bit_inv is
+	Port ( 
+			A : in  std_logic_vector (3 downto 0);
+			B : in  std_logic_vector (3 downto 0);
+			ctrl: in  std_logic;
+			S : out  std_logic_vector (3 downto 0);
+			Cout : out  std_logic
+			);
+end four_bit_add_sub	;

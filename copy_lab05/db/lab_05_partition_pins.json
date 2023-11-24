@@ -1,0 +1,293 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_clk",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "E[0]",
+					"strict" : false
+				},
+				{
+					"name" : "E[1]",
+					"strict" : false
+				},
+				{
+					"name" : "E[2]",
+					"strict" : false
+				},
+				{
+					"name" : "E[3]",
+					"strict" : false
+				},
+				{
+					"name" : "E[4]",
+					"strict" : false
+				},
+				{
+					"name" : "E[5]",
+					"strict" : false
+				},
+				{
+					"name" : "E[6]",
+					"strict" : false
+				},
+				{
+					"name" : "F[0]",
+					"strict" : false
+				},
+				{
+					"name" : "F[1]",
+					"strict" : false
+				},
+				{
+					"name" : "F[2]",
+					"strict" : false
+				},
+				{
+					"name" : "F[3]",
+					"strict" : false
+				},
+				{
+					"name" : "F[4]",
+					"strict" : false
+				},
+				{
+					"name" : "F[5]",
+					"strict" : false
+				},
+				{
+					"name" : "F[6]",
+					"strict" : false
+				},
+				{
+					"name" : "An[0]",
+					"strict" : false
+				},
+				{
+					"name" : "An[1]",
+					"strict" : false
+				},
+				{
+					"name" : "An[2]",
+					"strict" : false
+				},
+				{
+					"name" : "An[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Bn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Bn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Bn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Bn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Cn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Cn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Cn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Cn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "En[0]",
+					"strict" : false
+				},
+				{
+					"name" : "En[1]",
+					"strict" : false
+				},
+				{
+					"name" : "En[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Fn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Fn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Fn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_sw",
+					"strict" : false
+				},
+				{
+					"name" : "clk_ref",
+					"strict" : false
+				},
+				{
+					"name" : "auto_ps",
+					"strict" : false
+				},
+				{
+					"name" : "pb_rst",
+					"strict" : false
+				},
+				{
+					"name" : "pb_pause",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

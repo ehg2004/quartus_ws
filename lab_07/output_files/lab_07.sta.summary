@@ -1,0 +1,281 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'SW0'
+Slack : -3.890
+TNS   : -81.487
+
+Type  : Slow 1200mV 85C Model Setup 'clk_ref'
+Slack : -3.020
+TNS   : -145.181
+
+Type  : Slow 1200mV 85C Model Setup 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : -1.299
+TNS   : -7.609
+
+Type  : Slow 1200mV 85C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : -0.908
+TNS   : -0.908
+
+Type  : Slow 1200mV 85C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : -0.563
+TNS   : -0.563
+
+Type  : Slow 1200mV 85C Model Setup 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : -0.271
+TNS   : -0.271
+
+Type  : Slow 1200mV 85C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SW0'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_ref'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : 0.622
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : 0.798
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : 0.997
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'SW0'
+Slack : -3.224
+TNS   : -9.672
+
+Type  : Slow 1200mV 85C Model Removal 'SW0'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_ref'
+Slack : -3.000
+TNS   : -94.195
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SW0'
+Slack : -3.000
+TNS   : -61.542
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'SW0'
+Slack : -3.705
+TNS   : -75.016
+
+Type  : Slow 1200mV 0C Model Setup 'clk_ref'
+Slack : -2.634
+TNS   : -125.489
+
+Type  : Slow 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : -1.077
+TNS   : -6.171
+
+Type  : Slow 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : -0.813
+TNS   : -0.813
+
+Type  : Slow 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Slow 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : -0.158
+TNS   : -0.158
+
+Type  : Slow 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : 0.088
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SW0'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_ref'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : 0.941
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'SW0'
+Slack : -2.755
+TNS   : -8.265
+
+Type  : Slow 1200mV 0C Model Removal 'SW0'
+Slack : 0.721
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_ref'
+Slack : -3.000
+TNS   : -94.195
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SW0'
+Slack : -3.000
+TNS   : -61.453
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : -1.403
+TNS   : -2.806
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'SW0'
+Slack : -1.998
+TNS   : -23.576
+
+Type  : Fast 1200mV 0C Model Setup 'clk_ref'
+Slack : -0.675
+TNS   : -21.963
+
+Type  : Fast 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SW0'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_ref'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'SW0'
+Slack : -1.161
+TNS   : -3.483
+
+Type  : Fast 1200mV 0C Model Removal 'SW0'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_ref'
+Slack : -3.000
+TNS   : -70.076
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SW0'
+Slack : -3.000
+TNS   : -52.873
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16sync:clock9PH|mod09dff'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|PIPO8bit:PIPOstt0|\gen00:0:aa00'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:0:a00'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:1:a00'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab_07varmod9:cmpLab07|countMOD16async:nOfSeqDetec|\gen00:2:a00'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

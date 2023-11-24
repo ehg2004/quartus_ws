@@ -1,0 +1,14 @@
+
+State Machine - |VGASyncEnt|vState
+Name vState.vDs vState.vCs vState.vBs vState.vAs 
+vState.vAs 0 0 0 0 
+vState.vBs 0 0 1 1 
+vState.vCs 0 1 0 1 
+vState.vDs 1 0 0 1 
+
+State Machine - |VGASyncEnt|hState
+Name hState.hDs hState.hCs hState.hBs hState.hAs 
+hState.hAs 0 0 0 0 
+hState.hBs 0 0 1 1 
+hState.hCs 0 1 0 1 
+hState.hDs 1 0 0 1 

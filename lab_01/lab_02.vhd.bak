@@ -1,0 +1,37 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity sum15 is
+	port (
+			--en : in std_logic;
+			Si	:	in std_logic_vector (3 downto 0);
+			PRSN_o,RSTN_o : out std_logic_vector (3 downto 0);
+			
+			Co	:	out std_logic
+			);
+end sum15;
+
+architecture sum15_arch of sum15 is 
+--COMPONENT--
+
+--END--COMPONENT--
+--SIGNAL--
+signal s0 , s1 , s2 , s3: std_logic ;
+signal ss : std_logic_vector (3 downto 0);
+--END--SIGNAL--
+	begin
+		ss<=Si;
+		process (ss)
+		begin
+			if ss = "1111" then
+				RSTN_o <= "1001";
+				PRSN_o <= "0110";
+				s0 <=	'1';
+			else
+				PRSN_o <= "1111";
+				RSTN_o <= "1111";
+				s0 <='0';
+			end if;
+		end process;
+--BEGIN--
+end sum15_arch;

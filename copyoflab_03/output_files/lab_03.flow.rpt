@@ -1,0 +1,157 @@
+Flow report for lab_03
+Thu Sep 28 14:52:07 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Sep 28 14:52:07 2023       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab_03                                      ;
+; Top-level Entity Name              ; PISOtoSIPOmod8                              ;
+; Family                             ; Cyclone IV GX                               ;
+; Total logic elements               ; 42 / 21,280 ( < 1 % )                       ;
+;     Total combinational functions  ; 15 / 21,280 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 36 / 21,280 ( < 1 % )                       ;
+; Total registers                    ; 36                                          ;
+; Total pins                         ; 42 / 167 ( 25 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 774,144 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 80 ( 0 % )                              ;
+; Total GXB Receiver Channel PCS     ; 0 / 4 ( 0 % )                               ;
+; Total GXB Receiver Channel PMA     ; 0 / 4 ( 0 % )                               ;
+; Total GXB Transmitter Channel PCS  ; 0 / 4 ( 0 % )                               ;
+; Total GXB Transmitter Channel PMA  ; 0 / 4 ( 0 % )                               ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; Device                             ; EP4CGX22CF19C6                              ;
+; Timing Models                      ; Final                                       ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/28/2023 11:59:04 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab_03              ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                               ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name    ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 172537027825580.169591314434531        ; --            ; --             ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --             ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --             ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --             ; eda_simulation ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; PISOtoSIPOmod8 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; PISOtoSIPOmod8 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; PISOtoSIPOmod8 ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --             ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --             ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --             ; --             ;
+; TOP_LEVEL_ENTITY                    ; PISOtoSIPOmod8                         ; lab_03        ; --             ; --             ;
++-------------------------------------+----------------------------------------+---------------+----------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 1091 MB             ; 00:00:18                           ;
+; Fitter               ; 00:00:06     ; 1.0                     ; 2399 MB             ; 00:00:09                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 855 MB              ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 930 MB              ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1088 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 1076 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1092 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 1076 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 1088 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 1076 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1080 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 1076 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1092 MB             ; 00:00:00                           ;
+; Total                ; 00:00:19     ; --                      ; --                  ; 00:00:30                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; Fitter               ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; Assembler            ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; Timing Analyzer      ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; EHGDG15U         ; Ubuntu 20.04.6 ; 20         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off copyoflab_03 -c lab_03
+quartus_fit --read_settings_files=off --write_settings_files=off copyoflab_03 -c lab_03
+quartus_asm --read_settings_files=off --write_settings_files=off copyoflab_03 -c lab_03
+quartus_sta copyoflab_03 -c lab_03
+quartus_eda --read_settings_files=off --write_settings_files=off copyoflab_03 -c lab_03
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off lab_03 -c lab_03 --vector_source=/home/ehg2004/intelFPGA_lite/projects/lab_03_01/Waveform6.vwf --testbench_file=/home/ehg2004/intelFPGA_lite/projects/lab_03_01/simulation/qsim/Waveform6.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory=/home/ehg2004/intelFPGA_lite/projects/lab_03_01/simulation/qsim/ lab_03 -c lab_03
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off copyoflab_03 -c lab_03 --vector_source=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/Waveform6.vwf --testbench_file=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/Waveform6.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/ copyoflab_03 -c lab_03
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off copyoflab_03 -c lab_03 --vector_source=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/Waveform6.vwf --testbench_file=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/Waveform6.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/ copyoflab_03 -c lab_03
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off copyoflab_03 -c lab_03 --vector_source=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/Waveform6.vwf --testbench_file=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/Waveform6.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory=/home/ehg2004/intelFPGA_lite/projects/copyoflab_03/simulation/qsim/ copyoflab_03 -c lab_03
+
+
+

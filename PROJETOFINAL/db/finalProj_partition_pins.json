@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "vPos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[8]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[9]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[10]",
+					"strict" : false
+				},
+				{
+					"name" : "vPos[11]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[9]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[10]",
+					"strict" : false
+				},
+				{
+					"name" : "hPos[11]",
+					"strict" : false
+				},
+				{
+					"name" : "vSync",
+					"strict" : false
+				},
+				{
+					"name" : "hSync",
+					"strict" : false
+				},
+				{
+					"name" : "rgbEn",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

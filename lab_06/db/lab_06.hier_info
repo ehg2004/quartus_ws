@@ -1,0 +1,100 @@
+|seq_detector_3bit_dec
+PB0 => seq_detector_3bit:seq_detec.clk
+PB1 => seq_detector_3bit:seq_detec.RSTN
+SW_i => seq_detector_3bit:seq_detec.SW_i
+Q_dec[0] <= conv_HEX_7SEG_v:dec_seq.D[0]
+Q_dec[1] <= conv_HEX_7SEG_v:dec_seq.D[1]
+Q_dec[2] <= conv_HEX_7SEG_v:dec_seq.D[2]
+Q_dec[3] <= conv_HEX_7SEG_v:dec_seq.D[3]
+Q_dec[4] <= conv_HEX_7SEG_v:dec_seq.D[4]
+Q_dec[5] <= conv_HEX_7SEG_v:dec_seq.D[5]
+Q_dec[6] <= conv_HEX_7SEG_v:dec_seq.D[6]
+Q_dec[7] <= conv_HEX_7SEG_v:dec_seq.D[7]
+
+
+|seq_detector_3bit_dec|seq_detector_3bit:seq_detec
+clk => \gen00:0:ffi0.CLK
+clk => \gen00:1:ffi0.CLK
+clk => \gen00:2:ffi0.CLK
+RSTN => \gen00:0:ffi0.ACLR
+RSTN => \gen00:1:ffi0.ACLR
+RSTN => \gen00:2:ffi0.ACLR
+SW_i => D_s.IN0
+SW_i => D_s.IN0
+SW_i => D_s.IN0
+SW_i => D_s.IN0
+SW_i => D_s.IN0
+SW_i => D_s.IN0
+Q[0] <= \gen00:0:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= \gen00:1:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= \gen00:2:ffi0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_detector_3bit_dec|conv_HEX_7SEG_v:dec_seq
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN1
+X[0] => D.IN0
+X[0] => D.IN1
+X[0] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN1
+X[1] => D.IN0
+X[1] => D.IN0
+X[2] => D.IN1
+X[2] => D.IN1
+X[2] => D.IN1
+X[2] => D.IN0
+X[2] => D.IN0
+X[2] => D.IN0
+X[2] => D.IN1
+X[2] => D.IN0
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+X[3] => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN1
+PH => D.IN0
+dot_in => D.IN1
+D[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+

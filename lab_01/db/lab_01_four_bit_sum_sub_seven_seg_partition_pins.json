@@ -60,34 +60,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "S_dec[0]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[1]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[2]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[3]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[4]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[5]",
-					"strict" : false
-				},
-				{
-					"name" : "S_dec[6]",
-					"strict" : false
-				},
-				{
 					"name" : "Cout_dec[0]",
 					"strict" : false
 				},

@@ -1,0 +1,13 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity sumIncDecMux is
+	port (
+		Si	:	in std_logic_vector (3 downto 0);
+		clk , ctrl: in std_logic;
+		PRSN_o,RSTN_o : out std_logic_vector (3 downto 0);
+		Co	:	out std_logic
+		clk_b , ctrl_b: out std_logic;
+		);
+end sumIncDecMux;
+

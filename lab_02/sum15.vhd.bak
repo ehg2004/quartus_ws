@@ -1,0 +1,22 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity sum15 is
+	port (
+			X , Y  , ctrl: in std_logic ; 
+			O0 , O1 : out std_logic 
+			);
+end sum15;
+
+architecture switchXY_arch of switchXY is 
+--COMPONENT--
+
+--END--COMPONENT--
+--SIGNAL--
+--signal s0 , s1 , s2 , s3: std_logic ;
+--END--SIGNAL--
+	begin
+	O0 <= ( (X and ctrl ) or (Y and not ctrl) );
+	O1 <= ( (X and not ctrl ) or (Y and ctrl) );
+--BEGIN--
+end switchXY_arch;

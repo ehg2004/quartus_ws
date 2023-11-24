@@ -1,18 +1,18 @@
-Fitter Status : Successful - Sun Oct  1 00:08:53 2023
+Fitter Status : Successful - Fri Oct 20 11:30:05 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab_04
-Top-level Entity Name : RAmachine_gate
+Top-level Entity Name : lab_04
 Family : MAX 10
-Device : 10M08DAF484I7G
+Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 5 / 8,064 ( < 1 % )
-    Total combinational functions : 5 / 8,064 ( < 1 % )
-    Dedicated logic registers : 4 / 8,064 ( < 1 % )
-Total registers : 4
-Total pins : 6 / 250 ( 2 % )
+Total logic elements : 69 / 49,760 ( < 1 % )
+    Total combinational functions : 68 / 49,760 ( < 1 % )
+    Dedicated logic registers : 37 / 49,760 ( < 1 % )
+Total registers : 37
+Total pins : 11 / 360 ( 3 % )
 Total virtual pins : 0
-Total memory bits : 0 / 387,072 ( 0 % )
-Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
-Total PLLs : 0 / 2 ( 0 % )
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
 UFM blocks : 0 / 1 ( 0 % )
-ADC blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

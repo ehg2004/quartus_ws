@@ -1,0 +1,52 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity sumIncvar is
+	port (
+			--en : in std_logic;
+			Si	:	in std_logic_vector (3 downto 0);
+			PRSN_o,RSTN_o : out std_logic_vector (3 downto 0);
+--			clk: in std_logic;
+			Co	:	out std_logic
+			);
+end sumIncvar;
+
+architecture sumIncvar_arch of sumIncvar is 
+--COMPONENT--
+
+	component dff is
+	port (
+	CLK , PRN,CLRN, D: in std_logic;
+	Q : out std_logic
+	);
+	end component;
+
+--END--COMPONENT--
+--SIGNAL--
+signal sQ , sDec10 , sNew0 , s3 : std_logic ;
+signal Si_s : std_logic_vector (3 downto 0);
+--END--SIGNAL--
+--BEGIN--
+	begin
+	
+	Si_s<=Si;
+	sDec10<=(not Si_s(0) and  Si_s(1) and not Si_s(2) and  Si_s(3));-- detects 10
+	sNew0<=(Si_s(0) or Si_s(1) or Si_s(2) or Si_s(3));--verifies 0	
+	--sNew0<= not (Si_s(0) and Si_s(1) and Si_s(2) and Si_s(3));--verifies 0
+
+	
+	PRSN_o <= "1111";
+	
+	a0: dff 	port map (
+	CLK=> sDec10 , PRN => '1' ,CLRN => sNew0 , D => '1',
+	Q => s3
+	);
+	sQ<=not s3;
+
+	gen00: for i in 0 to 3 generate
+	lp0: RSTN_o(i) <= sQ;
+	end generate ;
+	--RSTN_o(0) <= sQ; RSTN_o(2) <= sQ; RSTN_o(3) <= sQ; RSTN_o(1) <= sQ;
+	Co<=sQ;
+	
+end sumIncvar_arch;

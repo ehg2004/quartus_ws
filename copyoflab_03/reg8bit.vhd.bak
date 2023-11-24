@@ -1,0 +1,10 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity reg8bit is
+	port	(
+		D : in std_logic_vector (7 downto 0); 
+		PRN , CLRN  , CLK: in std_logic;
+		Q : out std_logic_vector (7 downto 0)
+	);
+end reg8bit;

@@ -1,0 +1,33 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.all;
+
+package array_lab05_pkg is
+--       	type array_4_bit_7 is array (6 downto 0) of std_logic_vector(3 downto 0);
+			type array_4_bit_6 is array (5 downto 0) of std_logic_vector(3 downto 0);
+--			type array_8_bit_6 is array (5 downto 0) of std_logic_vector(7 downto 0);
+		 -- type bus_array is array(natural range <>, natural range <>) of std_logic;
+end package;
+
+Library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.all;
+use work.array_lab05_pkg.all;
+
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity async_chrono is 
+    port(
+		  clk, pb_rst , pause_ant, pb_pause  :in std_logic;
+		  cmp_in : in std_logic_vector (3 downto 0);
+        --S, cmp:  in std_logic_vector (11 downto 0); 
+		  Co: out std_logic;
+        S0,S1,S2,S3,S4,S5 : out std_logic_vector (3 downto 0)
+     ); 
+end async_chrono; 
+architecture async_chrono_arch of async_chrono is
+
+end async_chrono_arch;

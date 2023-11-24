@@ -1,0 +1,20 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity four_bit_add_sub is
+	    Port ( 
+		 a : in  STD_LOGIC_VECTOR (3 downto 0);
+	           b : in  STD_LOGIC_VECTOR (3 downto 0);
+	           cin : in  STD_LOGIC;
+	           s : out  STD_LOGIC_VECTOR (3 downto 0);
+	           cout : out  STD_LOGIC)
+		;
+end four_bit_add_sub	;
+
+
+	component add_s is 
+		 port(
+			  A, B, Ci:  in std_logic; 
+			  Co, S : out std_logic
+		  ); 
+	end component;	

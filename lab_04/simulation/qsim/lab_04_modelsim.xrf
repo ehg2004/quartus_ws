@@ -1,6 +1,9 @@
 vendor_name = ModelSim
+source_file = 1, /home/ehg2004/intelFPGA_lite/projects/lab_04/Timing_Reference.vhd
+source_file = 1, /home/ehg2004/intelFPGA_lite/projects/lab_04/conv_HEX_7SEG_v.vhd
 source_file = 1, /home/ehg2004/intelFPGA_lite/projects/lab_04/RAmachine_gate.vhd
 source_file = 1, /home/ehg2004/intelFPGA_lite/projects/lab_04/Waveform.vwf
+source_file = 1, /home/ehg2004/intelFPGA_lite/projects/lab_04/lab_04.vhd
 source_file = 1, /home/ehg2004/intelFPGA_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, /home/ehg2004/intelFPGA_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, /home/ehg2004/intelFPGA_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd

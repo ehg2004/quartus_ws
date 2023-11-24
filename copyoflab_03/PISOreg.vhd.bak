@@ -1,0 +1,15 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity PISOreg is
+	port	(
+	D_in : in std_logic_vector (7 downto 0);
+	clk , L_SN : in std_logic;
+	Os : out std_logic
+	);
+end PISOreg;
+
+architecture mux1bit_arch of mux1bit is
+	begin
+	output <= ( (ctrl and A ) or (not ctrl and B));
+end mux1bit_arch;

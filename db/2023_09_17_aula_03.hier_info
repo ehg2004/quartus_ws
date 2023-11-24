@@ -1,0 +1,61 @@
+|2023_09_17_aula_03
+S0 <= vhdl_add:inst.S
+A0 => vhdl_add:inst.A
+B0 => vhdl_add:inst.B
+Ci_0 => vhdl_add:inst.Ci
+S1 <= vhdl_add:inst2.S
+A1 => vhdl_add:inst2.A
+B1 => vhdl_add:inst2.B
+S2 <= vhdl_add:inst3.S
+A2 => vhdl_add:inst3.A
+B2 => vhdl_add:inst3.B
+S3 <= vhdl_add:inst4.S
+A3 => vhdl_add:inst4.A
+B4 => vhdl_add:inst4.B
+S4_Co <= vhdl_add:inst4.Co
+
+
+|2023_09_17_aula_03|vhdl_add:inst
+A => Co.IN0
+A => Co.IN0
+B => Co.IN1
+B => Co.IN1
+Ci => S.IN1
+Ci => Co.IN1
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|2023_09_17_aula_03|vhdl_add:inst2
+A => Co.IN0
+A => Co.IN0
+B => Co.IN1
+B => Co.IN1
+Ci => S.IN1
+Ci => Co.IN1
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|2023_09_17_aula_03|vhdl_add:inst3
+A => Co.IN0
+A => Co.IN0
+B => Co.IN1
+B => Co.IN1
+Ci => S.IN1
+Ci => Co.IN1
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|2023_09_17_aula_03|vhdl_add:inst4
+A => Co.IN0
+A => Co.IN0
+B => Co.IN1
+B => Co.IN1
+Ci => S.IN1
+Ci => Co.IN1
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

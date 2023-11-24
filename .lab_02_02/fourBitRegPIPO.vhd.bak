@@ -1,0 +1,12 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+entity fourBitRegPIPO is
+	port (
+			D: in std_logic_vector (3 downto 0);
+			Q: out std_logic_vector(3 downto 0);
+			PRSN,CLRN , clk: in std_logic 
+			);
+end fourBitRegPIPO;
+architecture fourBitRegPIPO_arch of fourBitRegPIPO is
+	begin
+end of fourBitRegPIPO_arch;

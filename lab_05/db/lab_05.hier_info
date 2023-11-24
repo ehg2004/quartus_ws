@@ -1,0 +1,51 @@
+|async_9_count
+clk => comb.IN0
+clk => ff10.CLK
+clk_a => pb_pff.PRESET
+pb_rst => comb.IN0
+pb_rst => clk_ps.ACLR
+pb_rst => comb.IN1
+pb_rst => comb.IN1
+pause_ant => bool_test.IN1
+pb_pause => comb.IN1
+pb_pause => comb.IN1
+pb_pause => bool_test.IN1
+pb_pause => pb_pff.CLK
+cmp_in[0] => compare_4bit:pse_cmp.cmp[0]
+cmp_in[1] => compare_4bit:pse_cmp.cmp[1]
+cmp_in[2] => compare_4bit:pse_cmp.cmp[2]
+cmp_in[3] => compare_4bit:pse_cmp.cmp[3]
+Co <= compare_4bit:rst_cmp.outp
+psed_o <= clk_ps.DB_MAX_OUTPUT_PORT_TYPE
+cmp_oo <= compare_4bit:pse_cmp.outp
+bool_test <= bool_test.DB_MAX_OUTPUT_PORT_TYPE
+outp[0] <= ff00.DB_MAX_OUTPUT_PORT_TYPE
+outp[1] <= \gen00:1:ff0i.DB_MAX_OUTPUT_PORT_TYPE
+outp[2] <= \gen00:2:ff0i.DB_MAX_OUTPUT_PORT_TYPE
+outp[3] <= \gen00:3:ff0i.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|async_9_count|compare_4bit:rst_cmp
+S[0] => rslt_s.IN0
+S[1] => rslt_s.IN0
+S[2] => rslt_s.IN0
+S[3] => rslt_s.IN0
+cmp[0] => rslt_s.IN1
+cmp[1] => rslt_s.IN1
+cmp[2] => rslt_s.IN1
+cmp[3] => rslt_s.IN1
+outp <= rslt_s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|async_9_count|compare_4bit:pse_cmp
+S[0] => rslt_s.IN0
+S[1] => rslt_s.IN0
+S[2] => rslt_s.IN0
+S[3] => rslt_s.IN0
+cmp[0] => rslt_s.IN1
+cmp[1] => rslt_s.IN1
+cmp[2] => rslt_s.IN1
+cmp[3] => rslt_s.IN1
+outp <= rslt_s.DB_MAX_OUTPUT_PORT_TYPE
+
+

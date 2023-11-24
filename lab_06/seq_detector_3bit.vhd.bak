@@ -1,0 +1,49 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.numeric_std.ALL;
+ 
+entity seq_detector_3bit is
+	port(
+	clk , RSTN : in std_logic;
+	Q : out std_logic_vector (2 downto 0)
+	);
+end seq_detector_3bit;
+
+architecture seq_detector_3bit_arch of RAmachine_gate is
+--COMPONENT--
+	component dff is
+		port (
+		clk , D ,  PRN ,CLRN : in std_logic;
+		Q : out std_logic
+		);
+	end component;
+--COMPONENT--END--
+
+--SIGNAL--
+	signal Q_s , D_s  , PRN_s , CLRN_s: std_logic_vector (2 downto 0);
+	signal clk_s  , rstn_s : std_logic;
+--SIGNAL--END--
+
+--BEGIN--
+	begin
+	gen00: for i in 0 to 2 generate
+	ffi0: dff port map (
+		clk=>clk_s , D=>D_s(i) ,  PRN=>PRN_s(i) , CLRN=>CLRN_s(i) ,
+		Q=>Q_s(i)
+		);
+
+	end generate;
+	
+	K_s(0)<= (Q_s(1) and not (Q_s(3)xor Q_s(2))) or (Q_s(3) and not (Q_s(1) xor Q_s(2)));
+	J_s(0)<= ((not Q_s(1)and not Q_s(3)) or (Q_s(3) and Q_s(2) and Q_s(1))) ;
+	K_s(1)<=((Q_s(3)and not Q_s(2)) or (not Q_s(3) and not Q_s(0)));
+	J_s(1)<=((not Q_s(3) and not Q_s(2) and Q_s(0))or(Q_s(3) and Q_s(2))or(Q_s(3)and not Q_s(0)));
+	K_s(2)<=((not Q_s(3) and Q_s(0))or( not Q_s(3) and Q_s(1))or(Q_s(0) and Q_s(1)));
+	J_S(2)<=(Q_s(1));
+	K_s(3)<=((Q_s(2) and Q_s(1)) or (not Q_s(2) and not Q_s(1) and Q_s(0)));
+	J_s(3)<=((Q_s(2) and Q_s(0))or(Q_s(2) and Q_s(1)));
+	
+	clk_s	<= clk;
+	rstn_s<=RSTN;
+	Q<=Q_s;
+end RAmachine_gate_arch;

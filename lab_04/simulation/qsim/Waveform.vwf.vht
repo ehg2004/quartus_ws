@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "10/01/2023 00:12:00"
+-- Generated on "10/06/2023 21:30:37"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          RAmachine_gate
 -- 
@@ -69,10 +69,6 @@ t_prcs_RSTN: PROCESS
 BEGIN
 	RSTN <= '1';
 	WAIT FOR 20000 ps;
-	RSTN <= '0';
-	WAIT FOR 40000 ps;
-	RSTN <= '1';
-	WAIT FOR 380000 ps;
 	RSTN <= '0';
 	WAIT FOR 40000 ps;
 	RSTN <= '1';

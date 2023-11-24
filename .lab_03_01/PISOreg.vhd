@@ -1,0 +1,56 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+
+entity PISOreg is
+	port	(
+	D_in : in std_logic_vector (7 downto 0);
+	clk , L_SN : in std_logic;
+	Os : out std_logic
+	);
+end PISOreg;
+
+architecture PISOreg_arch of PISOreg is
+	
+	component mux1bit is
+	port	(
+	A , B , ctrl : in std_logic;
+	output : out std_logic
+	);
+	end component;
+	component dff is
+	port	(
+		D, PRN , CLRN  , CLK: in std_logic;
+		Q : out std_logic
+	);
+	end component;
+	
+	signal D_s , DM_s : std_logic_vector (7 downto 0);
+	signal Q_s : std_logic_vector (8 downto 0);
+	signal clk_s , L_s : std_logic ;
+	begin 
+	
+	gen00: for i in 0 to 7 generate
+--	aa00:	mux1bit 
+--	port map	(
+--	A => Q_s(i) , B => D_s(i)  , ctrl => L_s,
+--	output=>DM_s(i)
+--	);
+	aa00:
+	DM_s(i) <= ( (L_s and Q_s(i) ) or (not L_s and D_s(i)));
+
+	aa01:
+	dff
+	port	map (
+		D =>DM_s(i) , PRN=>'1' , CLRN => '1'  , CLK => clk_s,
+		Q => Q_s(i+1)
+	);
+	end generate;
+	
+	D_s<=D_in;
+	Q_s(0)<='0';
+	L_s<=L_SN;
+	clk_s<= clk;
+	Os<=Q_s(8);
+	
+	
+end PISOreg_arch;

@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.numeric_std.ALL;
+  
+entity RGBtest is
+	port ( clk: in std_logic; 
+			vPos , hPos : out std_logic_vector (11 downto 0) ;
+			clk_20Hz , vSync , hSync , rgbEn: out std_logic
+			);
+			
+end RGBtest;
+
+architecture RGBtest_arch of RGBtest is
+
+
+end RGBtest_arch;

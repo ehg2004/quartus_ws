@@ -1,0 +1,584 @@
+Analysis & Synthesis report for lab_05
+Sat Nov 18 21:48:31 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Port Connectivity Checks: "compare_4bit:Acomp"
+ 12. Port Connectivity Checks: "conv_HEX_7SEG_v:A_conv"
+ 13. Port Connectivity Checks: "compare_4bit:Bcomp"
+ 14. Port Connectivity Checks: "conv_HEX_7SEG_v:B_conv"
+ 15. Port Connectivity Checks: "compare_4bit:Ccomp"
+ 16. Port Connectivity Checks: "conv_HEX_7SEG_v:C_conv"
+ 17. Port Connectivity Checks: "compare_4bit:Dcomp"
+ 18. Port Connectivity Checks: "conv_HEX_7SEG_v:D_conv"
+ 19. Port Connectivity Checks: "compare_4bit:Ecomp"
+ 20. Port Connectivity Checks: "sync_5_count:E_count|compare_4bit:rst_cmp"
+ 21. Port Connectivity Checks: "conv_HEX_7SEG_v:E_conv"
+ 22. Port Connectivity Checks: "compare_4bit:Fcomp"
+ 23. Port Connectivity Checks: "sync_9_count:F_count|compare_4bit:rst_cmp"
+ 24. Port Connectivity Checks: "sync_9_count:F_count"
+ 25. Port Connectivity Checks: "conv_HEX_7SEG_v:F_conv"
+ 26. Post-Synthesis Netlist Statistics for Top Partition
+ 27. Elapsed Time Per Partition
+ 28. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat Nov 18 21:48:31 2023       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab_05                                      ;
+; Top-level Entity Name              ; lab_05                                      ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 181                                         ;
+;     Total combinational functions  ; 180                                         ;
+;     Dedicated logic registers      ; 89                                          ;
+; Total registers                    ; 89                                          ;
+; Total pins                         ; 79                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M50DAF484C7G     ;                    ;
+; Top-level entity name                                            ; lab_05             ; lab_05             ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 14          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 14          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-14        ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                     ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                              ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
+; lab_05.vhd                       ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd                ;         ;
+; conv_HEX_7SEG_v.vhd              ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/conv_HEX_7SEG_v.vhd       ;         ;
+; Timing_Reference20kHz.vhd        ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference20kHz.vhd ;         ;
+; Timing_Reference1kHz.vhd         ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference1kHz.vhd  ;         ;
+; compare_4bit.vhd                 ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/compare_4bit.vhd          ;         ;
+; sync_9_count.vhd                 ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_9_count.vhd          ;         ;
+; sync_5_count.vhd                 ; yes             ; User VHDL File  ; /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_5_count.vhd          ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 181           ;
+;                                             ;               ;
+; Total combinational functions               ; 180           ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 65            ;
+;     -- 3 input functions                    ; 17            ;
+;     -- <=2 input functions                  ; 98            ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 119           ;
+;     -- arithmetic mode                      ; 61            ;
+;                                             ;               ;
+; Total registers                             ; 89            ;
+;     -- Dedicated logic registers            ; 89            ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 79            ;
+;                                             ;               ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; clk_ref~input ;
+; Maximum fan-out                             ; 64            ;
+; Total fan-out                               ; 856           ;
+; Average fan-out                             ; 2.00          ;
++---------------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                      ;
++------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                               ; Entity Name           ; Library Name ;
++------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+-----------------------+--------------+
+; |lab_05                                  ; 180 (13)            ; 89 (2)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 79   ; 0            ; 0          ; |lab_05                                           ; lab_05                ; work         ;
+;    |Timing_Reference1kHz:cmp_clk_1KHz|   ; 51 (51)             ; 33 (33)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|Timing_Reference1kHz:cmp_clk_1KHz         ; Timing_Reference1kHz  ; work         ;
+;    |Timing_Reference20kHz:cmp_clk_20KHz| ; 47 (47)             ; 31 (31)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|Timing_Reference20kHz:cmp_clk_20KHz       ; Timing_Reference20kHz ; work         ;
+;    |conv_HEX_7SEG_v:A_conv|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:A_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |conv_HEX_7SEG_v:B_conv|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:B_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |conv_HEX_7SEG_v:C_conv|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:C_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |conv_HEX_7SEG_v:D_conv|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:D_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |conv_HEX_7SEG_v:E_conv|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:E_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |conv_HEX_7SEG_v:F_conv|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|conv_HEX_7SEG_v:F_conv                    ; conv_HEX_7SEG_v       ; work         ;
+;    |sync_5_count:E_count|                ; 2 (1)               ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_5_count:E_count                      ; sync_5_count          ; work         ;
+;       |compare_4bit:rst_cmp|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_5_count:E_count|compare_4bit:rst_cmp ; compare_4bit          ; work         ;
+;    |sync_9_count:A_count|                ; 5 (4)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:A_count                      ; sync_9_count          ; work         ;
+;       |compare_4bit:rst_cmp|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:A_count|compare_4bit:rst_cmp ; compare_4bit          ; work         ;
+;    |sync_9_count:B_count|                ; 4 (3)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:B_count                      ; sync_9_count          ; work         ;
+;       |compare_4bit:rst_cmp|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:B_count|compare_4bit:rst_cmp ; compare_4bit          ; work         ;
+;    |sync_9_count:C_count|                ; 4 (3)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:C_count                      ; sync_9_count          ; work         ;
+;       |compare_4bit:rst_cmp|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:C_count|compare_4bit:rst_cmp ; compare_4bit          ; work         ;
+;    |sync_9_count:D_count|                ; 5 (4)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:D_count                      ; sync_9_count          ; work         ;
+;       |compare_4bit:rst_cmp|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:D_count|compare_4bit:rst_cmp ; compare_4bit          ; work         ;
+;    |sync_9_count:F_count|                ; 3 (3)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab_05|sync_9_count:F_count                      ; sync_9_count          ; work         ;
++------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+-----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                    ;
++----------------------------------------------+--------------------------------------------------------+
+; Register name                                ; Reason for Removal                                     ;
++----------------------------------------------+--------------------------------------------------------+
+; Timing_Reference20kHz:cmp_clk_20KHz|count[0] ; Merged with Timing_Reference1kHz:cmp_clk_1KHz|count[0] ;
+; Timing_Reference20kHz:cmp_clk_20KHz|count[1] ; Merged with Timing_Reference1kHz:cmp_clk_1KHz|count[1] ;
+; Total Number of Removed Registers = 2        ;                                                        ;
++----------------------------------------------+--------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 89    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 25    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 12    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------+
+; Inverted Register Statistics                         ;
++--------------------------------------------+---------+
+; Inverted Register                          ; Fan out ;
++--------------------------------------------+---------+
+; Timing_Reference1kHz:cmp_clk_1KHz|count[0] ; 3       ;
+; Total number of inverted registers = 1     ;         ;
++--------------------------------------------+---------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Acomp" ;
++-----------+-------+----------+-----------------+
+; Port      ; Type  ; Severity ; Details         ;
++-----------+-------+----------+-----------------+
+; cmp[1..0] ; Input ; Info     ; Stuck at VCC    ;
+; cmp[3..2] ; Input ; Info     ; Stuck at GND    ;
++-----------+-------+----------+-----------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:A_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at GND           ;
++--------+-------+----------+------------------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Bcomp" ;
++-----------+-------+----------+-----------------+
+; Port      ; Type  ; Severity ; Details         ;
++-----------+-------+----------+-----------------+
+; cmp[3..1] ; Input ; Info     ; Stuck at GND    ;
+; cmp[0]    ; Input ; Info     ; Stuck at VCC    ;
++-----------+-------+----------+-----------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:B_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at GND           ;
++--------+-------+----------+------------------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Ccomp" ;
++------+-------+----------+----------------------+
+; Port ; Type  ; Severity ; Details              ;
++------+-------+----------+----------------------+
+; cmp  ; Input ; Info     ; Stuck at GND         ;
++------+-------+----------+----------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:C_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at GND           ;
++--------+-------+----------+------------------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Dcomp" ;
++-----------+-------+----------+-----------------+
+; Port      ; Type  ; Severity ; Details         ;
++-----------+-------+----------+-----------------+
+; cmp[2..1] ; Input ; Info     ; Stuck at GND    ;
+; cmp[3]    ; Input ; Info     ; Stuck at VCC    ;
+; cmp[0]    ; Input ; Info     ; Stuck at VCC    ;
++-----------+-------+----------+-----------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:D_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at VCC           ;
++--------+-------+----------+------------------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Ecomp" ;
++-----------+-------+----------+-----------------+
+; Port      ; Type  ; Severity ; Details         ;
++-----------+-------+----------+-----------------+
+; s[3]      ; Input ; Info     ; Stuck at GND    ;
+; cmp[1..0] ; Input ; Info     ; Stuck at GND    ;
+; cmp[3]    ; Input ; Info     ; Stuck at GND    ;
+; cmp[2]    ; Input ; Info     ; Stuck at VCC    ;
++-----------+-------+----------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "sync_5_count:E_count|compare_4bit:rst_cmp" ;
++--------+-------+----------+-------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                   ;
++--------+-------+----------+-------------------------------------------+
+; cmp[3] ; Input ; Info     ; Stuck at GND                              ;
+; cmp[2] ; Input ; Info     ; Stuck at VCC                              ;
+; cmp[1] ; Input ; Info     ; Stuck at GND                              ;
+; cmp[0] ; Input ; Info     ; Stuck at VCC                              ;
++--------+-------+----------+-------------------------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:E_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; x[3]   ; Input ; Info     ; Stuck at GND           ;
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at GND           ;
++--------+-------+----------+------------------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "compare_4bit:Fcomp" ;
++-----------+-------+----------+-----------------+
+; Port      ; Type  ; Severity ; Details         ;
++-----------+-------+----------+-----------------+
+; cmp[1..0] ; Input ; Info     ; Stuck at GND    ;
+; cmp[3]    ; Input ; Info     ; Stuck at GND    ;
+; cmp[2]    ; Input ; Info     ; Stuck at VCC    ;
++-----------+-------+----------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Port Connectivity Checks: "sync_9_count:F_count|compare_4bit:rst_cmp" ;
++-----------+-------+----------+----------------------------------------+
+; Port      ; Type  ; Severity ; Details                                ;
++-----------+-------+----------+----------------------------------------+
+; cmp[2..1] ; Input ; Info     ; Stuck at GND                           ;
+; cmp[3]    ; Input ; Info     ; Stuck at VCC                           ;
+; cmp[0]    ; Input ; Info     ; Stuck at VCC                           ;
++-----------+-------+----------+----------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "sync_9_count:F_count"                                                               ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; co   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "conv_HEX_7SEG_v:F_conv" ;
++--------+-------+----------+------------------------+
+; Port   ; Type  ; Severity ; Details                ;
++--------+-------+----------+------------------------+
+; ph     ; Input ; Info     ; Stuck at GND           ;
+; dot_in ; Input ; Info     ; Stuck at VCC           ;
++--------+-------+----------+------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 79                          ;
+; cycloneiii_ff         ; 89                          ;
+;     CLR               ; 13                          ;
+;     ENA CLR           ; 12                          ;
+;     plain             ; 64                          ;
+; cycloneiii_lcell_comb ; 182                         ;
+;     arith             ; 61                          ;
+;         2 data inputs ; 60                          ;
+;         3 data inputs ; 1                           ;
+;     normal            ; 121                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 11                          ;
+;         2 data inputs ; 27                          ;
+;         3 data inputs ; 16                          ;
+;         4 data inputs ; 65                          ;
+;                       ;                             ;
+; Max LUT depth         ; 4.10                        ;
+; Average LUT depth     ; 2.84                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Sat Nov 18 21:48:25 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab_05 -c lab_05
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file test02.vhd
+    Info (12022): Found design unit 1: test02-test02_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/test02.vhd Line: 13
+    Info (12023): Found entity 1: test02 File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/test02.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file lab_05.vhd
+    Info (12022): Found design unit 1: lab_05-lab05_Arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 15
+    Info (12023): Found entity 1: lab_05 File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file conv_HEX_7SEG_v.vhd
+    Info (12022): Found design unit 1: conv_HEX_7SEG_v-conv_HEX_7SEG_v_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/conv_HEX_7SEG_v.vhd Line: 12
+    Info (12023): Found entity 1: conv_HEX_7SEG_v File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/conv_HEX_7SEG_v.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file Timing_Reference20kHz.vhd
+    Info (12022): Found design unit 1: Timing_Reference20kHz-freq_div File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference20kHz.vhd Line: 11
+    Info (12023): Found entity 1: Timing_Reference20kHz File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference20kHz.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Timing_Reference1kHz.vhd
+    Info (12022): Found design unit 1: Timing_Reference1kHz-freq_div File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference1kHz.vhd Line: 11
+    Info (12023): Found entity 1: Timing_Reference1kHz File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference1kHz.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file Timing_Reference.vhd
+    Info (12022): Found design unit 1: Timing_Reference-freq_div File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference.vhd Line: 11
+    Info (12023): Found entity 1: Timing_Reference File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file compare_12bit.vhd
+    Info (12022): Found design unit 1: compare_12bit-compare_12bit_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/compare_12bit.vhd Line: 10
+    Info (12023): Found entity 1: compare_12bit File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/compare_12bit.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file sync_999ms_count.vhd
+    Info (12022): Found design unit 1: sync_999ms_count-sync_999ms_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_999ms_count.vhd Line: 11
+    Info (12023): Found entity 1: sync_999ms_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_999ms_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file async_59s_count.vhd
+    Info (12022): Found design unit 1: async_59s_count-async_59s_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_59s_count.vhd Line: 11
+    Info (12023): Found entity 1: async_59s_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_59s_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file async_9_count.vhd
+    Info (12022): Found design unit 1: async_9_count-async_9_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_9_count.vhd Line: 12
+    Info (12023): Found entity 1: async_9_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_9_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file async_6_count.vhd
+    Info (12022): Found design unit 1: async_6_count-async_6_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_6_count.vhd Line: 12
+    Info (12023): Found entity 1: async_6_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_6_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file async_chrono.vhd
+    Info (12022): Found design unit 1: async_chrono-async_chrono_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_chrono.vhd Line: 25
+    Info (12023): Found entity 1: async_chrono File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_chrono.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file compare_4bit.vhd
+    Info (12022): Found design unit 1: compare_4bit-compare_4bit_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/compare_4bit.vhd Line: 10
+    Info (12023): Found entity 1: compare_4bit File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/compare_4bit.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file async_5_count.vhd
+    Info (12022): Found design unit 1: async_5_count-async_5_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_5_count.vhd Line: 12
+    Info (12023): Found entity 1: async_5_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/async_5_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file sync_9_count.vhd
+    Info (12022): Found design unit 1: sync_9_count-sync_9_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_9_count.vhd Line: 12
+    Info (12023): Found entity 1: sync_9_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_9_count.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file test9.vhd
+    Info (12022): Found design unit 1: test9-test9_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/test9.vhd Line: 12
+    Info (12023): Found entity 1: test9 File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/test9.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file sync_5_count.vhd
+    Info (12022): Found design unit 1: sync_5_count-sync_5_count_arch File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_5_count.vhd Line: 12
+    Info (12023): Found entity 1: sync_5_count File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_5_count.vhd Line: 3
+Info (12127): Elaborating entity "lab_05" for the top level hierarchy
+Warning (10873): Using initial value X (don't care) for net "Es[3]" at lab_05.vhd(69) File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 69
+Info (12128): Elaborating entity "Timing_Reference20kHz" for hierarchy "Timing_Reference20kHz:cmp_clk_20KHz" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 79
+Warning (10492): VHDL Process Statement warning at Timing_Reference20kHz.vhd(27): signal "tmp" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference20kHz.vhd Line: 27
+Info (12128): Elaborating entity "Timing_Reference1kHz" for hierarchy "Timing_Reference1kHz:cmp_clk_1KHz" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 83
+Warning (10492): VHDL Process Statement warning at Timing_Reference1kHz.vhd(27): signal "tmp" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/Timing_Reference1kHz.vhd Line: 27
+Info (12128): Elaborating entity "conv_HEX_7SEG_v" for hierarchy "conv_HEX_7SEG_v:F_conv" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 91
+Info (12128): Elaborating entity "sync_9_count" for hierarchy "sync_9_count:F_count" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 97
+Info (12128): Elaborating entity "compare_4bit" for hierarchy "sync_9_count:F_count|compare_4bit:rst_cmp" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_9_count.vhd Line: 94
+Info (12128): Elaborating entity "sync_5_count" for hierarchy "sync_5_count:E_count" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 118
+Critical Warning (10920): VHDL Incomplete Partial Association warning at sync_5_count.vhd(93): port or argument "S" has 1/4 unassociated elements File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/sync_5_count.vhd Line: 93
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer clkp~0
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "A[7]" is stuck at VCC File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "B[7]" is stuck at VCC File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "C[7]" is stuck at VCC File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "D[7]" is stuck at GND File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "E[7]" is stuck at VCC File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "F[7]" is stuck at GND File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 9
+    Warning (13410): Pin "En[3]" is stuck at GND File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 10
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "clkdbg" File: /home/ehg2004/intelFPGA_lite/projects/lab05_var/lab_05.vhd Line: 7
+Info (21057): Implemented 260 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 73 output pins
+    Info (21061): Implemented 181 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
+    Info: Peak virtual memory: 1013 megabytes
+    Info: Processing ended: Sat Nov 18 21:48:31 2023
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:16
+
+

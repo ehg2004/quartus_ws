@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "plse",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

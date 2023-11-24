@@ -1,0 +1,24 @@
+--Library IEEE;
+--use ieee.std_logic_1164.all;
+--
+--entity twotwoDigCountDec is
+--	port (
+--			--ctrl,
+--			clk: in std_logic ; 
+--			Co : out std_logic;
+--			dec0 , dec1 : out std_logic_vector (3 downto 0)
+--			--clk_b, ctrl_b: in std_logic 
+--			);
+--end twotwoDigCountDec;
+--
+--architecture twotwoDigCountDec_arch of twotwoDigCountDec is
+----COMPONENT--
+--	component Timing_Reference is
+--	port ( clk: in std_logic; -- Pin connected to P11 (N14)
+--			clk_2Hz: out std_logic);-- Can check it using PIN A8 - LEDR0
+--
+--	end component;
+--	
+----END--COMPONENT--
+--	begin
+--end of twotwoDigCountDec_arch;
